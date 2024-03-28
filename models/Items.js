@@ -1,3 +1,4 @@
+import { Double } from "mongodb";
 import mongoose from "mongoose";
 const {Schema} = mongoose;
 
@@ -14,7 +15,7 @@ const ItemSchema = new mongoose.Schema(
             type:Number
         },
         price:{
-            type:Number
+            type:Double
         }, 
         imageURL:{
             type:String,
