@@ -12,7 +12,7 @@ const ItemSchema = new mongoose.Schema(
         },
         stockQty:{
             type:Number
-        }
+        },
         price:{
             type:Number
         }, 
