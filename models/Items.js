@@ -10,40 +10,22 @@ const ItemSchema = new mongoose.Schema(
         itemType:{
             type: String
         },
-        stock:[
-            {
-                stockQty: Number,
-                itemPrice: Number, 
-                shippingFee: Number,
-                soldOut:Number
-            }
-        ], 
-        totalSold:{
+        stockQty:{
+            type:Number
+        }
+        price:{
             type:Number
         }, 
-        mainImg:{
+        imageURL:{
             type:String,
             require:true
         },
-        subImages:[
-            {
-                Image:String,
-                desc:String
-            }
-        ],
-        reviewId:{
-            type:[String]
-        },
         ratings: {
-            type:Number
+            type:Boolean
         },
-        isSale: [
-            {
-                status:Boolean,
-                salePrice:Number,
-                rate:Number
-            }
-        ]
+        isSale: {
+            type: Boolean
+        }
     },{
         timestamps:true
     }
