@@ -21,7 +21,7 @@ const ItemSchema = new mongoose.Schema(
             require:true
         },
         ratings: {
-            type:Boolean
+            type:Number
         },
         isSale: {
             type: Boolean
