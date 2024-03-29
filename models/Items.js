@@ -8,6 +8,9 @@ const ItemSchema = new mongoose.Schema(
             type:String, 
             require:true
         },
+        description:{
+            type: String
+        },
         itemType:{
             type: String
         },
