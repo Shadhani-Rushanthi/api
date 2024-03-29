@@ -8,6 +8,9 @@ const CategorySchema = new mongoose.Schema(
             require:true, 
             unique: true,
         }
+        imageURL:{
+            type: String
+        }
     }
 )
 
