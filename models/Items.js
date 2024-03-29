@@ -8,8 +8,8 @@ const ItemSchema = new mongoose.Schema(
             type:String, 
             require:true
         },
-        description: {
-            type:String
+        description:{
+            type: String
         },
         itemType:{
             type: String
@@ -18,7 +18,7 @@ const ItemSchema = new mongoose.Schema(
             type:Number
         },
         price:{
-            type:Double
+            type:Number
         }, 
         imageURL:{
             type:String,
