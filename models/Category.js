@@ -3,13 +3,10 @@ const {Schema} = mongoose;
 
 const CategorySchema = new mongoose.Schema(
     {
-        category:{
+        name:{
             type:String, 
             require:true, 
             unique: true,
-        },
-        types:{
-            type: [String]
         }
     }
 )
