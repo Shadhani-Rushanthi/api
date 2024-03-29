@@ -7,7 +7,7 @@ const CategorySchema = new mongoose.Schema(
             type:String, 
             require:true, 
             unique: true,
-        }
+        },
         imageURL:{
             type: String
         }
