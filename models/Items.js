@@ -18,7 +18,7 @@ const ItemSchema = new mongoose.Schema(
             type:Number
         },
         price:{
-            type:Double
+            type:Number
         }, 
         imageURL:{
             type:String,
