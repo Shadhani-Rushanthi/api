@@ -1,4 +1,4 @@
-import { getUsers, getUser, modifyUser, getUserByEmail } from "../controllers/users.js";
+import { getUsers, getUser, modifyUser, getUserByEmail } from "../controllers/user.js";
 import express from 'express'
 
 const route = express.Router()
