@@ -19,7 +19,7 @@ const UserSchema = new mongoose.Schema(
         contactNo:{
             type:Number
         },
-        Address: {
+        address: {
             type:String
         },
         orderIds :{
