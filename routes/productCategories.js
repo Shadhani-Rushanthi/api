@@ -1,11 +1,11 @@
 import express from  'express'
-import { addCategoryTypes, createCategory, getCategories, getCategory, getCategoryByName, modifyCategory, removeCategory, removeCategoryTypes } from '../controllers/categories.js'
+import { addCategoryTypes, createCategory, getproductCategories, getCategory, getCategoryByName, modifyCategory, removeCategory, removeCategoryTypes } from '../controllers/productCategories.js'
 
 const route = express.Router()
 
 route.post('/', createCategory)
 route.put('/:id', modifyCategory)
-route.get('/', getCategories)
+route.get('/', getproductCategories)
 route.get('/:id', getCategory)
 route.get('/getcategorybyname/:category', getCategoryByName)
 route.delete('/:id', removeCategory)

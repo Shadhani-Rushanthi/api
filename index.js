@@ -4,7 +4,7 @@ import dotenv from "dotenv"
 import authRoute from './routes/auth.js'
 import userRoute from './routes/user.js'
 import shopRoute from './routes/shop.js'
-import categoryRoute from './routes/categories.js'
+import categoryRoute from './routes/productCategories.js'
 import itemroute from './routes/items.js'
 import orderRoute from './routes/order.js'
 import cookieParser from 'cookie-parser'

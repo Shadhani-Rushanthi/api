@@ -29,6 +29,9 @@ const ItemSchema = new mongoose.Schema(
         },
         isSale: {
             type: Boolean
+        },
+        colorsAvailable: {
+            type: String
         }
     },{
         timestamps:true

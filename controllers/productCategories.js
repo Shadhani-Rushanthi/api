@@ -21,7 +21,7 @@ export const modifyCategory = async (req, res, next)=>{
 }
 
 
-export const getCategories = async (req, res, next)=>{
+export const getproductCategories = async (req, res, next)=>{
     try {
         let cat = await Category.find()
         res.status(200).json(cat)

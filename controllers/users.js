@@ -2,6 +2,7 @@ import bcrypt from "bcryptjs/dist/bcrypt.js"
 import User from "../models/User.js"
 
 export const getUsers= async(req, res, next) => {
+    debugger
     try {
         const users = await User.find()
         res.status(200).json(users)

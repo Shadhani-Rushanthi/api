@@ -25,7 +25,7 @@ const ShopSchema = new mongoose.Schema(
             type:String, 
             require:true
         }, 
-        categories:{
+        productCategories:{
             type: [String]
         },
         itemIds:{
